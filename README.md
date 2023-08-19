@@ -502,23 +502,6 @@ execute {
     self.adminRef.markNFTUnlockable(nftRef: nftRef)
 }
 ```
-### Contracts Honoring the Lock
-
-- TopShot `withdraw`
-- MarketTopShot relies on the NFT being withdrawn first so no additional code is needed
-- TopShotMarketV3 `listForSale`
-
-## License 
-
-The works in these folders 
-/dapperlabs/nba-smart-contracts/blob/master/contracts/TopShot.cdc 
-/dapperlabs/nba-smart-contracts/blob/master/contracts/MarketTopShot.cdc 
-/dapperlabs/nba-smart-contracts/blob/master/contracts/MarketTopShotV3.cdc 
-/dapperlabs/nba-smart-contracts/blob/master/contracts/TopShotAdminReceiver.cdc 
-/dapperlabs/nba-smart-contracts/blob/master/contracts/TopShotShardedCollection.cdc 
-
-are under the Unlicense
-https://github.com/onflow/flow-NFT/blob/master/LICENSE
 
 
 
